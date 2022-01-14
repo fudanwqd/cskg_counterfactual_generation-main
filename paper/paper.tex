@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+\usepackage[a4paper,top=2cm,bottom=2.5cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{listings}
+
+%% Sets page size and margins
+
+\usepackage{float}
+%% Useful packages
+\usepackage{amsmath}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+% \DeclareGraphicsExtensions{.pdf,.jpg,.png}
+
+%% defined colors
+\definecolor{Blue}{rgb}{0,0,0.5}
+\definecolor{Green}{rgb}{0,0.75,0.0}
+\definecolor{LightGray}{rgb}{0.6,0.6,0.6}
+\definecolor{DarkGray}{rgb}{0.3,0.3,0.3}
+
+\title{Assignment 0: IDS latex template}
+\author{
+Name1 (s1234567) \\ 
+Name2 (s7654321) \\ 
+ \\ \textbf{Group} 1234}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\abstract{This is the template for writing reports for the weekly assignments. The page 5 pages. You are expected not to change the font size or style or margin width. As in certain conference 
+submissions, if the template of your submission deviates significantly from this, your submission might incur negative points. So please follow this template and read the instructions.}
+
+\input{0introduction}
+\input{1methodology}
+\input{2results}
+\input{3discussion}
+\input{4conclusion}
+
+\bibliographystyle{plain}
+\bibliography{bibfile}
+
+\end{document}
